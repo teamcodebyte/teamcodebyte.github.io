@@ -15,35 +15,35 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" />
 
   </head>
-  <body class="bg-black">
-    <nav id="nav" class="flex flex-row items-center justify-between">
-      <div id="left" class="flex flex-row items-center justify-center pl-20 py-5">
-        <a href="/" class="text-white hover:text-gray-400 text-3xl font-semibold">home</a>
-        <a href="/" class="text-white hover:text-gray-400 text-3xl font-semibold pl-8">projects</a>
+  <body class="bg-black overflow-x-hidden">
+    <nav id="nav" class="flex flex-row items-center justify-between overflow-x-hidden">
+      <div id="left" class="flex flex-row items-center justify-center pl-5 md:pl-20 py-5">
+        <a href="/" class="text-white hover:text-gray-400 text-2xl md:text-3xl font-semibold">home</a>
+        <a href="/" class="text-white hover:text-gray-400 text-2xl md:text-3xl font-semibold pl-4 md:pl-8">projects</a>
       </div>
-      <div id="right" class="flex flex-row items-center justify-center pr-20 py-5">
-        <a href="https://discord.gg/JdZbBNc" target="_blank" class="text-white hover:text-gray-400 text-3xl pr-4"><i class="fab fa-discord"></i></a>
-        <a href="https://twitter.com/teamcodebyte" target="_blank" class="text-white hover:text-gray-400 text-3xl pr-4"><i class="fab fa-twitter"></i></a>
-        <a href="https://github.com/teamcodebyte" target="_blank" class="text-white hover:text-gray-400 text-3xl"><i class="fab fa-github"></i></a>
+      <div id="right" class="flex flex-row flex-row items-center justify-center pr-5 md:pr-20 py-5">
+        <a href="https://discord.gg/JdZbBNc" target="_blank" class="text-white hover:text-gray-400 text-2xl md:text-3xl pr-4"><i class="fab fa-discord"></i></a>
+        <a href="https://twitter.com/teamcodebyte" target="_blank" class="text-white hover:text-gray-400 text-2xl md:text-3xl pr-4"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/teamcodebyte" target="_blank" class="text-white hover:text-gray-400 text-2xl md:text-3xl"><i class="fab fa-github"></i></a>
       </div>
     </nav>
 
     <div class="flex flex-col items-center justify-center pb-20">
-      <div id="info" class="flex flex-col items-center justify-center py-56">
-        <span class="text-white text-7xl font-circular">codebyte</span>
-        <span class="text-white text-4xl font-roboto font-thin">Gen Z R&D Team</span>
+      <div id="info" class="flex flex-col items-center justify-center pt-56 pb-64 text-center">
+        <span class="text-white text-6xl md:text-7xl font-circular">codebyte</span>
+        <span class="text-white text-3xl md:text-4xl font-roboto font-thin">Gen Z R&D Team</span>
       </div>
-      <div id="team" class="flex flex-row items-center justify-center pt-10">
+      <div id="team" class="flex flex-col md:flex-row items-center justify-center">
         <div id="wulf" class="flex flex-col items-center justify-center">
-          <img src="./images/wulf.png" width="256px" class="rounded-full border-4 border-xblue select-none" />
+          <img src="./images/wulf.png" class="avatar rounded-full border-4 border-xblue select-none" />
           <a class="text-white text-2xl font-inter pt-2">wulf</a>
         </div>
-        <div id="merc" class="flex flex-col items-center justify-center px-32">
-          <img src="./images/tm.png" width="256px" class="rounded-full border-4 border-xblue select-none" />
+        <div id="merc" class="flex flex-col items-center justify-center md:mx-32 my-10 md:my-0">
+          <img src="./images/tm.png" class="avatar rounded-full border-4 border-xblue select-none" />
           <a class="text-white text-2xl font-inter pt-2">TrustedMercury</a>
         </div>
         <div id="shwayz" class="flex flex-col items-center justify-center">
-          <img src="./images/shwayz.png" width="256px" class="rounded-full border-4 border-xblue select-none" />
+          <img src="./images/shwayz.png" class="avatar rounded-full border-4 border-xblue select-none" />
           <a class="text-white text-2xl font-inter pt-2">Sh-wayz</a>
         </div>
       </div>
