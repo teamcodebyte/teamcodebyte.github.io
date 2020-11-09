@@ -1,4 +1,8 @@
 
+html, body {
+  overflow-x: hidden !important;
+}
+
 ::-webkit-scrollbar {
   background-color: transparent;
 }
@@ -18,6 +22,18 @@
   line-height: 1;
 }
 
-.text-7xl {
-  font-size: 7rem;
+.avatar {
+  width: 192px;
+}
+
+@media (min-width: 768px) {
+
+  .md\:text-7xl {
+    font-size: 7rem;
+  }
+
+  .avatar {
+    width: 256px;
+  }
+
 }
