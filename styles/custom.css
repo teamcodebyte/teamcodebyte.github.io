@@ -2,3 +2,12 @@
 .font-inter {
   font-family: 'Inter', sans-serif;
 }
+
+.font-circular {
+  font-family: 'Circular Std Medium', sans-serif;
+  line-height: 1;
+}
+
+.text-7xl {
+  font-size: 7rem;
+}
