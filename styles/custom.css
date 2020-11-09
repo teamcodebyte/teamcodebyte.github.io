@@ -1,4 +1,14 @@
 
+::-webkit-scrollbar {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #202020;
+  border-radius: 2px;
+}
+
+
 .font-inter {
   font-family: 'Inter', sans-serif;
 }
